@@ -2,7 +2,7 @@
 
 ### The algorithm (`find_safe_sequence()` function) for finding the safe sequence:
 
-1. Make a loop while the length of safe_seq_list is not equal to the no_of_job,
+1. Make a loop while the length of `safe_seq_list` is not equal to the `no_of_job`,
 2. Inside the loop, make a for loop, so as to access keys (`job_name`) and values
    (`need_list`) over each iteration,
 3. Make a `flag` (initialize it as `True` which means it resource needed is less than available CPU resources) for checking whether the resources is lesser or greater than available CPU resources.
