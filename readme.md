@@ -15,36 +15,35 @@
 8. Run the above, recursively, till the `safe_seq_list` is equal to the `no_of_jobs`.
 
 ### Test case:
-
-Run the program using: `python3 bankers.py`
-
-CPU Resources:
-Available: 2 1 0
-
-Number of jobs: 5
-Enter currentlly allocated resources for P0: 1 1 2
-Enter currentlly allocated resources for P1: 2 1 2
-Enter currentlly allocated resources for P2: 4 0 1
-Enter currentlly allocated resources for P3: 0 2 0
-Enter currentlly allocated resources for P4: 1 1 2
-
-Current resources dict: {'P0': [1, 1, 2], 'P1': [2, 1, 2], 'P2': [4, 0, 1], 'P3': [0, 2, 0], 'P4': [1, 1, 2]}
-
-Enter max resource for P0: 4 3 3
-Enter max resource for P1: 3 2 2
-Enter max resource for P2: 9 0 2
-Enter max resource for P3: 7 5 3
-Enter max resource for P4: 1 1 2
-
-Resources needed dict: {'P0': [3, 2, 1], 'P1': [1, 1, 0], 'P2': [5, 0, 1], 'P3': [7, 3, 3], 'P4': [0, 0, 0]}
-
-No safe sequence found!
-New safe seq. added: ['P1']
-No safe sequence found!
-No safe sequence found!
-New safe seq. added: ['P1', 'P4']
-New safe seq. added: ['P1', 'P4', 'P0']
-New safe seq. added: ['P1', 'P4', 'P0', 'P2']
-New safe seq. added: ['P1', 'P4', 'P0', 'P2', 'P3']
-
-Safe sequence: ['P1', 'P4', 'P0', 'P2', 'P3']
+Run the program using: ```python3 bankers.py```
+<br>
+CPU Resources: <br>
+Available: 2 1 0 <br>
+<br>
+Number of jobs: 5 <br>
+Enter currentlly allocated resources for P0: 1 1 2 <br>
+Enter currentlly allocated resources for P1: 2 1 2 <br>
+Enter currentlly allocated resources for P2: 4 0 1 <br>
+Enter currentlly allocated resources for P3: 0 2 0 <br>
+Enter currentlly allocated resources for P4: 1 1 2 <br>
+<br>
+Current resources dict: {'P0': [1, 1, 2], 'P1': [2, 1, 2], 'P2': [4, 0, 1], 'P3': [0, 2, 0], 'P4': [1, 1, 2]} <br>
+<br>
+Enter max resource for P0: 4 3 3 <br>
+Enter max resource for P1: 3 2 2 <br>
+Enter max resource for P2: 9 0 2 <br>
+Enter max resource for P3: 7 5 3 <br>
+Enter max resource for P4: 1 1 2 <br>
+<br>
+Resources needed dict: {'P0': [3, 2, 1], 'P1': [1, 1, 0], 'P2': [5, 0, 1], 'P3': [7, 3, 3], 'P4': [0, 0, 0]}<br>
+<br>
+No safe sequence found!<br>
+New safe seq. added: ['P1'] <br>
+No safe sequence found!<br>
+No safe sequence found!<br>
+New safe seq. added: ['P1', 'P4']<br>
+New safe seq. added: ['P1', 'P4', 'P0']<br>
+New safe seq. added: ['P1', 'P4', 'P0', 'P2']<br>
+New safe seq. added: ['P1', 'P4', 'P0', 'P2', 'P3']<br>
+<br>
+Safe sequence: ['P1', 'P4', 'P0', 'P2', 'P3']<br>
